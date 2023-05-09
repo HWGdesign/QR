@@ -1,7 +1,6 @@
 let qrDiv = document.getElementById('qr-div');
 let qrImg = document.getElementById('qr-image');
 let qrText = document.getElementById('qr-text');
-let qrError = document.getElementById('qr-error');
 
 function GenerateQrCode() 
 {
@@ -10,7 +9,10 @@ function GenerateQrCode()
           qrDiv.classList.add('show-img');
      }
      else{
-          let html = document.getElementsByName('Error')[0].placeholder='You forgot something...😉👉 (URL or Text)';
+          qrText.classList.add('error');
+          setTimeout(()=>{
+               qrText.classList.remove('error');
+          },1000)    
      }
      
 }

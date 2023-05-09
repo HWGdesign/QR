@@ -11,12 +11,14 @@
 
      <div class="container">
           <p>QRCode  generator</p>
-          <input name="Error" placeholder="Enter your URL or text" id="qr-text"/>
+
+          <div class="input-container" data-error="Fill input">
+               <input type="text" class="error" placeholder="Enter your URL or text" id="qr-text"/>
+          </div>
 
           <div id="qr-div">
                <img id="qr-image">
           </div>
-
           <button onclick="GenerateQrCode()">Generate</button>          
      </div>
 
