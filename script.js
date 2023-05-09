@@ -9,10 +9,10 @@ function GenerateQrCode()
           qrDiv.classList.add('show-img');
      }
      else{
-          qrText.classList.add('error');
-          setTimeout(()=>{
-               qrText.classList.remove('error');
-          },1000)    
-     }
-     
+               qrText.classList.add('error');
+               setTimeout(()=>
+               {
+                    qrText.classList.remove('error');
+               },1000)    
+          }
 }
