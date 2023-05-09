@@ -2,7 +2,6 @@ let qrDiv = document.getElementById('qr-div');
 let qrImg = document.getElementById('qr-image');
 let qrText = document.getElementById('qr-text');
 
-
 function GenerateQrCode() 
 {
      if(qrText.value.length > 0) {
