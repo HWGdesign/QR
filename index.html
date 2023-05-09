@@ -8,20 +8,17 @@
      <title>QR | Generator</title>
 </head>
 <body>
-
-     <div class="container">
-          <p>QRCode  generator</p>
-
-          <div class="input-container" data-error="Fill input">
-               <input type="text" class="error" placeholder="Enter your URL or text" id="qr-text"/>
+     <div class="gradient">
+          <div class="container">
+               <p>QRCode  generator</p>    
+                    <input placeholder="Enter your URL or text" id="qr-text" />
+               <div id="qr-div">
+                    <img id="qr-image">
+               </div>
+               <button type="button" onclick="GenerateQrCode()">Generate</button>          
           </div>
-
-          <div id="qr-div">
-               <img id="qr-image">
-          </div>
-          <button onclick="GenerateQrCode()">Generate</button>          
      </div>
-
+     
      <script src="script.js"></script>
 </body>
 </html>
