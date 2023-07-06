@@ -2,6 +2,8 @@
 This is a simple web application that allows you to generate QR codes instantly. With this application, you can easily generate QR codes for any text or URL of your choice.
 The QR codes can be scanned by smartphones or QR code readers to quickly access the encoded information.
 
+![qr](https://github.com/HWGdesign/QR/assets/132587901/68bf5682-240f-4d95-9019-067632d79334)
+
 ### Usage:
 <ol>
 <li>Open the web application in your preferred web browser.<br>
